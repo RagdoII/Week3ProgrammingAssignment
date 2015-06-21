@@ -1,8 +1,8 @@
 ## For this week's assignment, we will write two functions 
 ## that cache the inverse of a matrix.
 
-## Create a matrix object that can cache its inverse
 
+## Create a matrix object that can cache its inverse. Four fuctions are defined here.
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
     set <- function(y){
@@ -17,7 +17,6 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Compute the inverse of the matrix x
-
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
     inv <- x$getinverse()
